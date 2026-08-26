@@ -1,0 +1,55 @@
+[
+  {
+    "id": "isro-research-intern",
+    "title": "Research Intern, Space Applications Centre (SAC), ISRO",
+    "category": "Research",
+    "description": "Selected for a 6-month on-site research internship at ISRO's Space Applications Centre, working on satellite-imagery object detection and denoising.",
+    "logo": "/images/logos/isro.webp"
+  },
+  {
+    "id": "ieee-publications",
+    "title": "Author of 6 IEEE-Indexed Research Publications",
+    "category": "Research",
+    "description": "Six papers across IEEE-indexed international conferences — four live on IEEE Xplore, and two presented at CMSS 2026 with indexing pending."
+  },
+  {
+    "id": "vp-ignitra",
+    "title": "Vice President, IGNITRA 3.0",
+    "category": "Leadership",
+    "description": "Led planning and execution as Vice President of the IGNITRA 3.0 event."
+  },
+  {
+    "id": "gdgoc-lead",
+    "title": "Event Management Lead, GDG on Campus DMIHER",
+    "category": "Leadership",
+    "description": "Organizer and Event Management Lead for GDG on Campus, Datta Meghe Institute of Higher Education & Research — a 3,000+ member chapter of Google Developer Groups. Led logistics for the Tech4Good Hackathon series, run in partnership with DMIHER and Hack2Skill.",
+    "link": "https://gdg.community.dev/gdg-on-campus-datta-meghe-institute-of-higher-education-research-wardha-india/"
+  },
+  {
+    "id": "tech4good-speaker",
+    "title": "Speaker, Tech4Good Hackathon (GDG on Campus DMIHER)",
+    "category": "Community",
+    "description": "Spoke at the Tech4Good Hackathon series hosted by GDG on Campus DMIHER."
+  },
+  {
+    "id": "tech4good-moderator",
+    "title": "Moderator, Tech4Good Hackathon (GDG on Campus DMIHER)",
+    "category": "Community",
+    "description": "Moderated sessions at the Tech4Good Hackathon, run in partnership with DMIHER and Hack2Skill."
+  },
+  {
+    "id": "student-council",
+    "title": "General Secretary, Student Council",
+    "category": "Leadership",
+    "description": "Served as General Secretary, representing the student body in college governance."
+  },
+  {
+    "id": "bharatiya-antariksh-hackathon",
+    "title": "Bharatiya Antariksh Hackathon — ISRO (2024)",
+    "category": "Hackathon",
+    "description": "Participant in ISRO's national space-technology hackathon.",
+    "logo": "/images/logos/isro.webp",
+    "image": "/certificates/previews/bharatiya-antariksh-hackathon.jpg",
+    "fileUrl": "/certificates/originals/bharatiya-antariksh-hackathon.png"
+  }
+]

@@ -1,0 +1,20 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-college-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg-college-1)"/>
+  <rect x="28" y="28" width="544" height="544" rx="16" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="2" stroke-dasharray="8 8"/>
+  <g transform="translate(300.0,266.0) scale(1.15)" stroke="#8B5CF6" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+      <path d="M-34 -14 L-24 -14 L-18 -24 L18 -24 L24 -14 L34 -14 C37 -14 40 -11 40 -8 L40 20 C40 23 37 26 34 26 L-34 26 C-37 26 -40 23 -40 20 L-40 -8 C-40 -11 -37 -14 -34 -14 Z"/>
+      <circle cx="0" cy="4" r="14"/>
+      <circle cx="26" cy="-6" r="2" fill="#8B5CF6" stroke="none"/>
+    </g>
+    <circle cx="330.0" cy="234.0" r="13" fill="#0B1120" stroke="#8B5CF6" stroke-width="2.2"/>
+    <path d="M324.0 234.0 h12 M330.0 228.0 v12" stroke="#8B5CF6" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="300.0" y="366.0" text-anchor="middle" font-family="ui-monospace,monospace" font-size="11" letter-spacing="2" fill="#8B5CF6" opacity="0.9">PHOTO SLOT</text>
+  <text x="300.0" y="392.0" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#9CA3AF">DMIHER Campus</text>
+  <text x="300.0" y="554" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748B">ADD PHOTO → /public/images/gallery/college-1.jpg</text>
+</svg>

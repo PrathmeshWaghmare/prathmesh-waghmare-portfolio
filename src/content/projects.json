@@ -1,0 +1,154 @@
+[
+  {
+    "id": "isro-object-detection",
+    "title": "Real-Time Object Detection from ISRO Satellite Imagery",
+    "category": "Computer Vision",
+    "duration": "Apr 2026 \u2013 Present",
+    "featured": true,
+    "description": "Trained and benchmarked multiple YOLO model variants for real-time detection of objects in real satellite images sourced from ISRO datasets, optimizing the inference pipeline for real-time performance on remote-sensing imagery.",
+    "highlights": [
+      "Trained and benchmarked multiple YOLO model variants (v8, v11, v26) for real-time detection of objects in real satellite images sourced from ISRO datasets.",
+      "Optimized the inference pipeline for real-time performance on remote-sensing imagery, balancing detection accuracy and speed across model versions."
+    ],
+    "technologies": [
+      "Python",
+      "PyTorch",
+      "OpenCV",
+      "YOLOv8",
+      "YOLOv11",
+      "YOLOv26"
+    ],
+    "githubUrl": null,
+    "liveUrl": null,
+    "image": "/images/projects/satellite-detection.svg",
+    "status": "In Progress \u00b7 ISRO Research"
+  },
+  {
+    "id": "satellite-denoising",
+    "title": "Real-Time Satellite Image Denoising & Enhancement",
+    "category": "Computer Vision",
+    "duration": "Apr 2026 \u2013 Present",
+    "featured": true,
+    "description": "Designed and implemented denoising models to remove noise from real-time satellite imagery, improving image clarity for downstream object-detection tasks.",
+    "highlights": [
+      "Designed and implemented denoising models to remove noise from real-time satellite imagery, improving image clarity for downstream object-detection tasks.",
+      "Applied preprocessing and enhancement techniques to improve the signal-to-noise ratio of real satellite and remote-sensing data."
+    ],
+    "technologies": [
+      "Python",
+      "OpenCV",
+      "Deep Learning",
+      "DnCNN"
+    ],
+    "githubUrl": "https://github.com/PrathmeshWaghmare/Image_Denoising_dncnn",
+    "liveUrl": null,
+    "image": "/images/projects/image-denoising.svg",
+    "status": "In Progress \u00b7 ISRO Research"
+  },
+  {
+    "id": "bdh-yolo26",
+    "title": "BDH-YOLO26: Hybrid Deep Learning Framework for Aircraft Detection",
+    "category": "Research",
+    "duration": "2026",
+    "featured": true,
+    "description": "Research project integrating Dragon Hatchling (BDH) architecture concepts with YOLO26 for accurate aircraft detection in high-resolution satellite images.",
+    "highlights": [
+      "Explores hybrid BDH + YOLO26 architectures for aircraft detection in high-resolution satellite imagery.",
+      "Builds on ISRO research into efficient large-scale satellite image analysis."
+    ],
+    "technologies": [
+      "PyTorch",
+      "YOLO26",
+      "BDH Architecture",
+      "Computer Vision"
+    ],
+    "githubUrl": null,
+    "liveUrl": null,
+    "image": "/images/projects/bdh-yolo26.svg",
+    "status": "Research in Progress",
+    "researchIds": [
+      "bdh-yolo26-aircraft-detection",
+      "yolo-comparative-aircraft-detection"
+    ]
+  },
+  {
+    "id": "covid-detection",
+    "title": "COVID-19 & Pneumonia Detection from Chest X-Ray Images",
+    "category": "Healthcare AI",
+    "duration": "Feb 2025 \u2013 Mar 2025",
+    "featured": true,
+    "description": "Built a 4-class deep-learning classifier (COVID-19, Pneumonia, Viral Infection, Normal) for real-time chest X-ray screening, with image preprocessing and Grad-CAM-based visualization.",
+    "highlights": [
+      "Built a 4-class deep-learning classifier (COVID-19, Pneumonia, Viral Infection, Normal) for real-time chest X-ray screening.",
+      "Applied image preprocessing and accuracy-based evaluation, with Grad-CAM support for visualizing model attention."
+    ],
+    "technologies": [
+      "PyTorch",
+      "CNN",
+      "Medical Imaging",
+      "Grad-CAM"
+    ],
+    "githubUrl": "https://github.com/PrathmeshWaghmare/Covid-19-Detection",
+    "liveUrl": null,
+    "image": "/images/projects/covid-detection.svg",
+    "status": "Completed"
+  },
+  {
+    "id": "labour-booking",
+    "title": "Real-Time Labour Booking Platform for Farmers",
+    "category": "Web Development",
+    "duration": "Dec 2025 \u2013 Jan 2026",
+    "featured": true,
+    "description": "A real-time web platform enabling farmers to book agricultural laborers on demand, with live availability status and instant booking confirmation.",
+    "highlights": [
+      "Built a real-time web platform enabling farmers to book agricultural laborers on demand, with live availability status and instant booking confirmation.",
+      "Designed a responsive UI and booking workflow to streamline labor discovery and scheduling for farmers in rural areas.",
+      "Written up as \"Real-Time Web-Based Marketplace for On-Demand Matching of Agricultural Labor\" \u2014 accepted for presentation at ICCSECD 2026."
+    ],
+    "technologies": [
+      "React.js",
+      "Node.js",
+      "JavaScript"
+    ],
+    "githubUrl": null,
+    "liveUrl": null,
+    "image": "/images/projects/labour-booking.svg",
+    "status": "Completed"
+  },
+  {
+    "id": "batsman-performance",
+    "title": "Batsman Performance Analysis using Machine Learning",
+    "category": "Data Science",
+    "duration": "Independent Project",
+    "featured": false,
+    "description": "Machine learning based analysis and visualization of batsman performance data.",
+    "highlights": [
+      "Applied machine learning and data-visualization techniques to analyze batsman performance data."
+    ],
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "githubUrl": null,
+    "liveUrl": null,
+    "image": "/images/projects/batsman-analysis.svg",
+    "status": "Completed"
+  },
+  {
+    "id": "pose-correction",
+    "title": "Pose Correction",
+    "category": "Open Source",
+    "duration": "GitHub Project",
+    "featured": false,
+    "description": "Open-source project exploring pose correction. See the GitHub repository for full details.",
+    "highlights": [],
+    "technologies": [
+      "TypeScript"
+    ],
+    "githubUrl": "https://github.com/PrathmeshWaghmare/Pose-correction",
+    "liveUrl": null,
+    "image": "/images/projects/pose-correction.svg",
+    "status": "Open Source"
+  }
+]

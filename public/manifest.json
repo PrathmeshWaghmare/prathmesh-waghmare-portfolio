@@ -1,0 +1,12 @@
+{
+  "name": "Prathmesh Waghmare — AI/ML Engineer & Computer Vision Researcher",
+  "short_name": "Prathmesh Waghmare",
+  "description": "Portfolio of Prathmesh Waghmare — AI/ML Engineer, Computer Vision Researcher, and Full-Stack Developer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#030712",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

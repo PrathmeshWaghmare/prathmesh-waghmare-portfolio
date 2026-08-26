@@ -1,0 +1,11 @@
+[
+  { "id": "g1", "category": "ISRO", "caption": "ISRO · Space Applications Centre (SAC)", "image": "/images/logos/isro.webp", "logo": true },
+  { "id": "g3", "category": "Conference", "caption": "IEEE Conference Presentation", "image": "/images/gallery/conference-1.svg" },
+  { "id": "g4", "category": "Conference", "caption": "Research Conference", "image": "/images/gallery/conference-2.svg" },
+  { "id": "g5", "category": "College", "caption": "DMIHER Campus", "image": "/images/gallery/college-1.svg" },
+  { "id": "g6", "category": "College", "caption": "Student Council / Leadership", "image": "/images/gallery/college-2.svg" },
+  { "id": "g7", "category": "Projects", "caption": "Satellite Imagery Research", "image": "/images/gallery/project-1.svg" },
+  { "id": "g8", "category": "Projects", "caption": "Computer Vision Work", "image": "/images/gallery/project-2.svg" },
+  { "id": "g9", "category": "Community", "caption": "Speaker · Tech4Good Hackathon, GDG on Campus DMIHER", "image": "/images/gallery/community-1.svg" },
+  { "id": "g10", "category": "Community", "caption": "Moderator · Tech4Good Hackathon, GDG on Campus DMIHER", "image": "/images/gallery/community-2.svg" }
+]

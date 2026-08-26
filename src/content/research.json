@@ -1,0 +1,78 @@
+[
+  {
+    "id": "diabetes-ai-review",
+    "title": "A Review on the Diabetes Treatment using Artificial Intelligence and Machine Learning",
+    "conference": "8th ICICT 2025",
+    "venue": "Tribhuvan University, Nepal · 23–25 April 2025",
+    "year": "2025",
+    "status": "Presented & Published",
+    "indexing": "IEEE Xplore",
+    "ieeeLive": true,
+    "abstract": "A review examining the application of artificial intelligence and machine learning techniques to diabetes treatment and management.",
+    "image": "/certificates/previews/diabetes-ai-review.jpg",
+    "fileUrl": "/certificates/originals/diabetes-ai-review.pdf"
+  },
+  {
+    "id": "rom-ai-photography",
+    "title": "Assessing ROM with AI Photography: Validity & Application",
+    "conference": "6th ICESC 2025",
+    "venue": "Hindusthan Institute of Technology, Coimbatore, India · 10–12 September 2025",
+    "year": "2025",
+    "status": "Presented & Published",
+    "indexing": "IEEE Xplore",
+    "ieeeLive": true,
+    "abstract": "A study assessing the validity and application of AI-driven photography techniques for measuring range of motion (ROM).",
+    "image": "/certificates/previews/rom-ai-photography.jpg",
+    "fileUrl": "/certificates/originals/rom-ai-photography.pdf"
+  },
+  {
+    "id": "smart-water-irrigation",
+    "title": "Smart Water Irrigation Using IoT, Artificial Intelligence, and Machine Learning Techniques",
+    "conference": "7th ICMCSI 2026",
+    "venue": "Purbanchal University, Nepal · 7–9 January 2026",
+    "year": "2026",
+    "status": "Presented & Published",
+    "indexing": "IEEE Xplore",
+    "ieeeLive": true,
+    "abstract": "A smart irrigation system combining IoT sensing with AI/ML techniques for efficient, automated water management in agriculture.",
+    "image": "/certificates/previews/smart-water-irrigation.jpg",
+    "fileUrl": "/certificates/originals/smart-water-irrigation.pdf"
+  },
+  {
+    "id": "agri-labor-marketplace",
+    "title": "Real-Time Web-Based Marketplace for On-Demand Matching of Agricultural Labor",
+    "conference": "ICCSECD 2026",
+    "venue": "",
+    "year": "2026",
+    "status": "Presented & Published",
+    "indexing": "IEEE Xplore",
+    "ieeeLive": true,
+    "abstract": "A real-time web platform connecting farmers with agricultural laborers on demand, streamlining discovery and scheduling of farm labor."
+  },
+  {
+    "id": "bdh-yolo26-aircraft-detection",
+    "title": "Exploratory Study of YOLO26 for High-Resolution Aircraft Detection in Indian Satellite Images",
+    "conference": "2nd CMSS 2026",
+    "venue": "Universiti Teknologi MARA, Malaysia · 12–14 August 2026",
+    "year": "2026",
+    "status": "Presented · IEEE Xplore listing pending",
+    "indexing": "IEEE",
+    "ieeeLive": false,
+    "abstract": "An exploratory study evaluating YOLO26 for high-resolution aircraft detection in Indian satellite imagery, part of ongoing ISRO SAC research.",
+    "image": "/certificates/previews/bdh-yolo26-aircraft-detection.jpg",
+    "fileUrl": "/certificates/originals/bdh-yolo26-aircraft-detection.pdf"
+  },
+  {
+    "id": "yolo-comparative-aircraft-detection",
+    "title": "A Comparative Study of YOLOv8, YOLO11, YOLO12, and YOLO26 for Aircraft Detection in High-Resolution Satellite Imagery",
+    "conference": "2nd CMSS 2026",
+    "venue": "Universiti Teknologi MARA, Malaysia · 12–14 August 2026",
+    "year": "2026",
+    "status": "Presented · IEEE Xplore listing pending",
+    "indexing": "IEEE",
+    "ieeeLive": false,
+    "abstract": "A comparative benchmark of YOLOv8, YOLO11, YOLO12, and YOLO26 architectures for aircraft detection in high-resolution satellite imagery.",
+    "image": "/certificates/previews/yolo-comparative-aircraft-detection.jpg",
+    "fileUrl": "/certificates/originals/yolo-comparative-aircraft-detection.pdf"
+  }
+]

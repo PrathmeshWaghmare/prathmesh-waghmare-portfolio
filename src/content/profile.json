@@ -1,0 +1,47 @@
+{
+  "name": "Prathmesh Waghmare",
+  "initials": "PW",
+  "title": "AI & Machine Learning Engineer",
+  "titleRoles": [
+    "AI & Machine Learning Engineer",
+    "Computer Vision Researcher",
+    "Full-Stack Developer",
+    "Research Intern @ ISRO"
+  ],
+  "tagline": "Building AI-powered systems for computer vision, satellite imagery, and healthcare — from ISRO research labs to production web apps.",
+  "summary": "I'm a B.Tech student in Artificial Intelligence & Machine Learning with hands-on Research & Development experience at the Space Applications Centre (SAC), ISRO, building deep-learning and computer-vision models — including YOLO, R-CNN, and RNN-based architectures — for real-time object detection and denoising of satellite imagery. I'm proficient in Python, PyTorch, TensorFlow, and OpenCV, with applied project experience spanning satellite image analysis, healthcare AI, and full-stack web development. I'm the author of six IEEE-indexed research publications — four live on IEEE Xplore and two presented at conference with indexing pending — and I've taken on leadership roles as Vice President of IGNITRA 3.0, Event Management Lead at GDGoC, and General Secretary of the Student Council.",
+  "shortBio": "AI/ML engineer and researcher specializing in computer vision and remote sensing, currently building satellite-imagery detection systems as a Research Intern at ISRO's Space Applications Centre.",
+  "location": "Wardha, Maharashtra, India",
+  "email": "prathmeshwaghmare1812@gmail.com",
+  "phone": "+91-7066072062",
+  "resumeUrl": "/resume.pdf",
+  "photo": "/images/profile-photo.jpg",
+  "availability": "Open to AI/ML Research & SDE Internships",
+  "availabilityStatus": "available",
+  "languages": ["English", "Hindi", "Marathi"],
+  "interests": [
+    "Artificial Intelligence",
+    "Computer Vision",
+    "Satellite Imaging",
+    "Remote Sensing",
+    "Medical AI",
+    "Space Technology",
+    "Open Source",
+    "Research"
+  ],
+  "stats": [
+    { "label": "IEEE Publications", "value": "6" },
+    { "label": "Research Lab", "value": "ISRO · SAC" },
+    { "label": "CGPA", "value": "7.52/10" },
+    { "label": "Leadership Roles", "value": "3" }
+  ],
+  "education": {
+    "degree": "Bachelor of Technology (B.Tech)",
+    "branch": "Artificial Intelligence & Machine Learning",
+    "institution": "Datta Meghe Institute of Higher Education and Research (DMIHER)",
+    "location": "Wardha, Maharashtra",
+    "expected": "Expected 2027",
+    "cgpa": "7.52 / 10 (through 6th Semester)",
+    "logo": "/images/logos/dmiher.jpg"
+  }
+}

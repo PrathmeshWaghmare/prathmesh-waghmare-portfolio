@@ -1,0 +1,37 @@
+[
+  {
+    "id": "isro-sac",
+    "role": "Research Intern",
+    "organization": "Space Applications Centre (SAC), ISRO",
+    "logo": "/images/logos/isro.webp",
+    "type": "6-Month On-Site Research Internship",
+    "location": "Ahmedabad, Gujarat",
+    "duration": "Apr 2026 – Oct 2026",
+    "current": true,
+    "description": "Engineering real-time object-detection and image-enhancement pipelines for satellite imagery under SAC-ISRO's geospatial AI/ML initiatives.",
+    "highlights": [
+      "Engineered real-time object-detection pipelines for satellite imagery using multiple YOLO variants (YOLOv8, YOLOv11, YOLOv26), Faster R-CNN, and RNN-based sequence models in Python, PyTorch, and OpenCV.",
+      "Researched and prototyped Dragon Hatchling (BDH) and Mamba-based architectures to improve the efficiency of large-scale satellite image analysis.",
+      "Built image-denoising and enhancement modules to remove noise from real-time satellite data, improving downstream model accuracy.",
+      "Performed image preprocessing and annotation (Roboflow, LabelImg) on remote-sensing datasets to support high-quality model training.",
+      "Collaborated with cross-functional research teams on geospatial and AI/ML initiatives under SAC-ISRO."
+    ],
+    "technologies": ["Python", "PyTorch", "YOLO", "OpenCV", "Google Colab", "Roboflow", "LabelImg"]
+  },
+  {
+    "id": "cosmos-digital",
+    "role": "Web Development Intern",
+    "organization": "Cosmos Digital",
+    "logo": null,
+    "type": "On-Site Internship",
+    "location": "India",
+    "duration": "Apr 2025 – Jun 2025",
+    "current": false,
+    "description": "Built a business-oriented web application and stakeholder dashboard for internal operations.",
+    "highlights": [
+      "Built a business-oriented web application and stakeholder dashboard using HTML, CSS, JavaScript, and Node.js.",
+      "Implemented responsive, user-friendly features and partnered with the team to translate business requirements into functionality."
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "React"]
+  }
+]

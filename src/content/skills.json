@@ -1,0 +1,81 @@
+[
+  {
+    "category": "Programming",
+    "icon": "code",
+    "skills": [
+      { "name": "Python", "level": 90 },
+      { "name": "JavaScript", "level": 80 },
+      { "name": "Java", "level": 60 },
+      { "name": "SQL", "level": 65 },
+      { "name": "C", "level": 55 }
+    ]
+  },
+  {
+    "category": "Machine Learning",
+    "icon": "brain",
+    "skills": [
+      { "name": "Machine Learning", "level": 88 },
+      { "name": "Deep Learning", "level": 85 },
+      { "name": "Supervised Learning", "level": 85 },
+      { "name": "Model Training & Evaluation", "level": 85 },
+      { "name": "Scikit-Learn", "level": 75 }
+    ]
+  },
+  {
+    "category": "Computer Vision",
+    "icon": "eye",
+    "skills": [
+      { "name": "PyTorch", "level": 88 },
+      { "name": "TensorFlow", "level": 78 },
+      { "name": "OpenCV", "level": 85 },
+      { "name": "CNN", "level": 85 },
+      { "name": "YOLO (v8 / v11 / v26)", "level": 88 },
+      { "name": "Faster R-CNN", "level": 75 },
+      { "name": "RNN / Mamba", "level": 70 },
+      { "name": "Dragon Hatchling (BDH) Architectures", "level": 65 },
+      { "name": "Image Denoising & Enhancement", "level": 82 },
+      { "name": "Medical Imaging", "level": 75 }
+    ]
+  },
+  {
+    "category": "Web Development",
+    "icon": "layout",
+    "skills": [
+      { "name": "React.js", "level": 80 },
+      { "name": "Next.js", "level": 75 },
+      { "name": "Node.js", "level": 72 },
+      { "name": "HTML / CSS", "level": 85 },
+      { "name": "Tailwind CSS", "level": 78 }
+    ]
+  },
+  {
+    "category": "Tools & Platforms",
+    "icon": "wrench",
+    "skills": [
+      { "name": "Git / GitHub", "level": 85 },
+      { "name": "Google Colab", "level": 90 },
+      { "name": "Roboflow", "level": 78 },
+      { "name": "LabelImg", "level": 78 },
+      { "name": "Jupyter Notebook", "level": 88 },
+      { "name": "VS Code", "level": 85 }
+    ]
+  },
+  {
+    "category": "Databases",
+    "icon": "database",
+    "skills": [
+      { "name": "MySQL", "level": 65 },
+      { "name": "SQLite", "level": 65 }
+    ]
+  },
+  {
+    "category": "Other",
+    "icon": "sparkles",
+    "skills": [
+      { "name": "Satellite Image Processing", "level": 85 },
+      { "name": "REST APIs", "level": 75 },
+      { "name": "Data Visualization", "level": 75 },
+      { "name": "Research Writing", "level": 80 }
+    ]
+  }
+]

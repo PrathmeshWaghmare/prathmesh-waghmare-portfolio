@@ -1,0 +1,232 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   DESIGN TOKENS
+   Palette, type, and motion tokens for the portfolio. Keep colors here —
+   components should always reference the CSS variables below, never hex
+   values directly, so the whole site can be re-themed from one place.
+   ========================================================================== */
+
+:root {
+  /* Core palette (brief-specified) */
+  --color-primary: #3b82f6;
+  --color-accent: #06b6d4;
+  --color-purple: #8b5cf6;
+  --color-bg: #030712;
+  --color-bg-soft: #05070f;
+  --color-card: #111827;
+  --color-card-hover: #161f2e;
+  --color-border: #1f2937;
+  --color-border-soft: rgba(255, 255, 255, 0.08);
+  --color-text: #f9fafb;
+  --color-text-muted: #9ca3af;
+  --color-text-dim: #6b7280;
+
+  --color-bg-light: #f7f8fb;
+  --color-card-light: #ffffff;
+  --color-border-light: #e5e7eb;
+  --color-text-light: #0b1120;
+  --color-text-muted-light: #4b5563;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --dur-fast: 0.2s;
+  --dur-med: 0.5s;
+  --dur-slow: 0.9s;
+}
+
+[data-theme="light"] {
+  --color-bg: var(--color-bg-light);
+  --color-bg-soft: #eef1f6;
+  --color-card: var(--color-card-light);
+  --color-card-hover: #f2f4f8;
+  --color-border: var(--color-border-light);
+  --color-border-soft: rgba(10, 15, 30, 0.08);
+  --color-text: var(--color-text-light);
+  --color-text-muted: var(--color-text-muted-light);
+  --color-text-dim: #6b7280;
+}
+
+@theme inline {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+  --color-primary: var(--color-primary);
+  --color-accent: var(--color-accent);
+  --color-purple: var(--color-purple);
+  --color-card: var(--color-card);
+  --color-border: var(--color-border);
+
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --breakpoint-xs: 420px;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  scroll-behavior: auto;
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: #f9fafb;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 999px;
+  border: 2px solid var(--color-bg);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--color-primary); }
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   SIGNATURE MOTIF: detection frame
+   Corner-bracket "viewfinder" treatment echoing object-detection bounding
+   boxes (YOLO-style), used on hover states across cards & the hero photo.
+   ========================================================================== */
+
+.detect-frame {
+  position: relative;
+  isolation: isolate;
+}
+
+.detect-frame::before,
+.detect-frame::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-primary);
+  opacity: 0;
+  transition: opacity var(--dur-fast) var(--ease-out-quad),
+    transform var(--dur-med) var(--ease-out-expo);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.detect-frame::before {
+  top: 8px; left: 8px;
+  border-right: none; border-bottom: none;
+  transform: translate(6px, 6px);
+}
+.detect-frame::after {
+  bottom: 8px; right: 8px;
+  border-left: none; border-top: none;
+  transform: translate(-6px, -6px);
+}
+.detect-frame:hover::before,
+.detect-frame:hover::after,
+.detect-frame.is-active::before,
+.detect-frame.is-active::after {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.detect-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  transform: translateY(-4px);
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--color-primary);
+  background: rgba(3, 7, 18, 0.85);
+  border: 1px solid var(--color-primary);
+  padding: 2px 8px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity var(--dur-fast) var(--ease-out-quad), transform var(--dur-med) var(--ease-out-expo);
+  z-index: 6;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.detect-frame:hover .detect-label,
+.detect-frame.is-active .detect-label {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, var(--color-border-soft) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-border-soft) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, var(--color-primary), var(--color-accent) 55%, var(--color-purple));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: color-mix(in srgb, var(--color-card) 70%, transparent);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-border-soft);
+}
+
+.eyebrow {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.telemetry {
+  font-family: var(--font-mono), monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.section-padding {
+  padding-top: clamp(4.5rem, 8vw, 7rem);
+  padding-bottom: clamp(4.5rem, 8vw, 7rem);
+}
+
+.container-px {
+  padding-left: clamp(1.25rem, 5vw, 3rem);
+  padding-right: clamp(1.25rem, 5vw, 3rem);
+}

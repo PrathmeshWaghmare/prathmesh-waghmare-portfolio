@@ -4,21 +4,6 @@ A production-ready personal portfolio built with **Next.js 15**, **React 19**, *
 
 ---
 
-## ⚠️ Before you publish — read this
-
-This project was generated from your resume and public profiles (GitHub, the GDG on Campus DMIHER page). A few things still need your input:
-
-1. **Profile photo.** `public/images/profile-placeholder.svg` is a placeholder. Add a real photo at `public/images/profile-photo.jpg` and update `"photo"` in `src/content/profile.json` to `"/images/profile-photo.jpg"`.
-   - I found a real headshot of you on the [GDG on Campus DMIHER page](https://gdg.community.dev/gdg-on-campus-datta-meghe-institute-of-higher-education-research-wardha-india/) but couldn't download it automatically — save it from there, or upload your own.
-2. **Email / phone.** Double-check `src/content/profile.json` and `src/content/socials.json` — verify `prathmeshwaghmare1812@gmail.com` and `+91-7066072062` are correct and the ones you want public.
-3. **Project & gallery screenshots.** Every project card and gallery tile currently uses a generated placeholder graphic (clearly labeled "SCREENSHOT PENDING" / "PHOTO PENDING"). Drop real images into `public/images/projects/` and `public/images/gallery/` using the same filenames, or update the paths in the JSON files.
-4. **Tech4Good Hackathon speaker/moderator photos.** You mentioned having screenshots from speaking and moderating — add them to `public/images/gallery/community-1.svg` → replace with a `.jpg`/`.png` and update `src/content/gallery.json`.
-5. **Domain.** Replace `https://prathmeshwaghmare.dev` in `src/app/layout.tsx`, `src/app/sitemap.ts`, and `src/app/robots.ts` with your real domain once you have one.
-6. **Contact form.** The form currently opens the visitor's email client with a pre-filled message (no backend required). If you'd rather send silently via [EmailJS](https://www.emailjs.com/), see the comment in `src/components/sections/Contact.tsx`.
-
-Everything else — experience, publications, skills, certifications, achievements, GitHub repos — was pulled directly from your resume and verified public profiles. Nothing was invented.
-
----
 
 ## Getting started
 
